@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color-interpolation-filters: linearRGB;
+}
+h2{
+    font-weight: 500;
+}
+
+.colors{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftalignment{
+    margin-left: 3%;
+}
+
+.centeralleftignment{
+    margin-left: 0%;
+}
+
+.centeralrightignment{
+    margin-right: 0%;
+}
+
+.rightalignment{
+    margin-right: 3%;
+}
+
+.images{
+    height:5cm;
+    width:5cm;
+}

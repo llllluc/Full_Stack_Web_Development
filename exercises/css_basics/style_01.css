@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+h3{
+    color: pink;
+}
+html{
+    background-color: purple;
+}
+
+.brown-heading{
+    color: brown;
+}
+
+.yellow-text{
+    color: yellow;
+}
+
+#maincolor{
+    color: aqua;
+}
+
+#secondcolor{
+    color: azure;
+}
+
+p[draggable="true"]{
+    color: goldenrod;
+}
+p[draggable="false"]{
+    color: rgb(26, 136, 233);
+}
+
+*{
+    color: rgb(106, 240, 157);
+}
