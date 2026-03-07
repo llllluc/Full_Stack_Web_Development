@@ -1,0 +1,46 @@
+CSS - Cascading Style Sheets
+Why Cascading?
+    Starts with the most general styling all the way down to the most specific styling.
+
+Style Sheet:
+    It is a type of language. There are others:
+        *Sass - Syntactically Awesome Style Sheets
+        *Less - Leaner Style Sheets
+        *...
+
+In 1997 was released HTML 3.2. This version allowed was new tags shuch as:
+
+    *<font> thru which we are able to modify: 
+        *font size
+            -numeric values form 1 to 7. it can be defined using relative values, like +2 and -3. Which sets
+            it relative to 3, the default value.
+        *color
+            -this attribute sets the text color uising either a named color or a color specified in the 
+            hexadecimal #RGBGBB format
+        *face of its content
+            -this attribute contains a comma-separated list of one or more font names.The document text in
+            the default style is rendered in the first font face that the client's browser supports. If no font listed
+            is installed on the local system, the browser tipically defaults to the proportional or fixed-width font
+            for that system.
+    
+    *<center> thru which we are able to display its block-level or inline contents centered horizontally
+
+But those can cluster the HTML file
+
+So this is where CSS comes. It is not whitin the HTML files, so it dosen't cluster.
+
+There are 3 ways in which we can add CSS in to HTML:
+    *Inline
+        <tag style="css" />
+         Example: exercises/css_basics/css_inline.html
+         It is used to apply the style as the name says, inline
+
+    *Internal
+        <style>css</style>
+        Example: exercises/css_basics/css_internal.html
+        It is used to apply the style in one HTML file, this can't be used for multiple pages websites
+    *External
+        <link herf="style.css"/>
+        Example: exercises/css_basics/css_external.html  (html file)
+        Example: exercises/css_basics/styles.css  (css file)
+        This is used for multiple pages websites, it can be linked to multiple pages
