@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS</title>
+    <link rel="icon"    href="../../assets/images/image_html_css.png" />
+    <link rel="stylesheet"  href="../../css_for_index/css_index.css" />
+</head>
+<body>
+    <h1 class="center_title">HTML and CSS</h1>
+    <br></br>
+
+    <div class="nexttoeachother">
+    
+        <div class="totheleft">   <!--HTML Notes-->
+
+            <h2 class="center_title">HTML</h2>
+
+            <div>
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                1. &lt;!DOCTYPE HTML&gt; is a type declaration, it helps the browsers to display the page correctly.
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                2. The HTML document itself begin with &lt;html&gt; and ends with &lt;/html&gt;. Whitin this we also 
+                                declare the language in the begining &lt;html lang=en&gt;
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                3. The visible part of the html document is between &lt;body&gt; and &lt;/body&gt;.In this we can have:
+                                    *Hedings: -h1
+                                              -h2
+                                              -h3
+                                              -and so on...till h6
+                                    Those can be used like this &lt;h1&gt;The Title&lt;/h1&gt;
+                                    *Paragraphs. &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                                    *Links. &lt;a herf="https://www.google.com"&gt;This is a link&lt;/a&gt;
+                                    *Images. &lt;img src="../../assets/images/image01.png" />
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                3. Head of the html is between &lt;head&gt; and &lt;/head&gt;.This where we put informations about
+                                the page:
+                                    *The title, that appears on the tab in the browser. Which can be set like this &lt;title&gt;HTML 
+                                    and CSS&lt;/title&gt;
+                                    *The type of charset used on the page. Most common is: &lt;meta charset="UTF-8"&gt;
+                                    *Link to a css file. EX: &lt;link rel="stylesheet" herf="./location_folder/css_style_for_page.css"&gt;
+                                    *Whit the line from above we can also add an icon, by simply changeing the rel="icon" and the
+                                    herf="location/icon.png"
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="totheright">
+
+            <h2 class="center_title">CSS</h2>
+
+            <div>
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                Cascading Style Sheets is used to format the layout of a webpage. Whit CSS, we can control the colors, 
+                                font, the size of the text, the spacing between elements, how elements are positioned and laid out,
+                                what background-colors or images are used, different displays for different devices and screen sizes,
+                                and so on...
+                                There are 3 ways to add css to a HTML document:
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                1.INLINE -by using style attribute inside the elements
+                                    Ex: &lt;h1 style="color:blue;"&gt;A blue heading&lt;/h1&gt;
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                2.INTERNAL by using &lt;style&gt; element in the &lt;head&gt; section
+                                    Ex: 
+                                    &lt;!DOCTYPE html&gt;
+                                        &lt;html&gt;
+                                            &lt;head&gt;
+                                                &lt;style&gt;
+                                                    body {background-color: pink;}
+                                                    h1 {color: yellow;}
+                                                    p {color: red;}
+                                                &lt;/style&gt;
+                                            &lt;/head&gt;
+
+                                            &lt;body&gt;
+
+                                                &lt;h1&gt;This is a heading&lt;/h1&gt;
+                                                &lt;p&gt;This is a paragraph&lt;/p&gt;
+
+                                            &lt;/body&gt;
+                                    &lt;html&gt;
+
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+                <div class="fornotehoriz">
+                    <b class="fornotes">
+                        <pre>
+                            <code>
+                                3.EXTERNAL by using &lt;link&gt; element to link an external css file
+                                    Ex:
+                                    HTML
+                                    &lt;!DOCTYPE html&gt;
+                                        &lt;html&gt;
+                                            &lt;head&gt;
+                                                &lt;link rel="stylesheet" herf="/locationfolder/css_for_index.css"&gt;
+                                            &lt;/head&gt;
+
+                                            &lt;body&gt;
+
+                                                &lt;h1&gt;This is a heading&lt;/h1&gt;
+                                                &lt;p&gt;This is a paragraph&lt;/p&gt;
+
+                                            &lt;/body&gt;
+                                    &lt;html&gt;
+
+                                    CSS
+                                    body {background-color: pink;}
+                                    h1 {color: yellow;}
+                                    p {color: red;}
+                            </code>
+                        </pre>
+                    </b>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="nexttoeachother2">
+        <div>
+        <h2 class="center_title"><a href="./html_example.html">HTML example</a></h2>
+        <img class="siteprev" src="../../assets/images/image_html_example.png">
+        </div>
+
+        <div>
+        <h2 class="center_title"><a href="./html_example_whitcss.html">HTML example whit css</a></h2>
+        <img class="siteprev" src="../../assets/images/image_html_examplewithcss.png">
+        </div>
+
+    </div>
+
+</body>
+</html>
