@@ -1,0 +1,36 @@
+.box{
+    border: 1px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -500px;
+    margin-left: -500px;
+    width: 1000px;
+    height: 1000px;
+}
+
+img{
+    width: 900px;
+    height: 700px;
+    border: 1px;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+
+
+}
+
+.fontTitlu{
+    color: azure;
+    font-size: 100px;
+    margin-inline-start: 250px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: -3%;
+    margin-left: 110px;
+}
