@@ -1,0 +1,143 @@
+.sky{
+    background-color: aqua;
+    width: 1904px;
+    height: 300px;
+}
+
+.land{
+    background-color: green;
+    width: 1904px;
+    height: 300px;
+}
+
+.road{
+    background-color: grey;
+    width: 1904px;
+    height: 300px;
+    float: left;
+    grid-column: auto;
+}
+
+.clouds{
+    width: 100px;
+    height: 50px;
+    float: left;
+    grid-column: auto;
+}
+
+.cloud1{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.cloud2{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.cloud3{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 800px;
+}
+
+.cloud4{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 1300px;
+}
+
+.cloud5{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin-left: 1700px;
+}
+
+.line1{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.line2{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 400px;
+}
+.line3{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 800px;
+}
+.line4{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 1200px;
+}
+.line5{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 1600px;
+}
+.line6{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 2000px;
+}
+.line7{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 2400px;
+}
+.line8{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 2800px;
+}
+.line9{
+    background-color:whitesmoke;
+    width: 200px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 3200px;
+}
+.car{
+    background-color: blue;
+    width: 1000px;
+    height: 200px;
+    position:absolute;
+    margin-top: -100px;
+    margin-left: 200px;
+
+}
+.faraalb{
+    overflow: hidden;
+    width: 1800px;
+    height: 300px;
+}

@@ -24,6 +24,8 @@ img{
 
 .fontTitlu{
     color: azure;
+    width: 100%;
+    min-width: 100%;
     font-size: 100px;
     margin-inline-start: 250px;
 }
