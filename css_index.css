@@ -1,157 +1,127 @@
-     *{
-      box-sizing: border-box;
-      background-color: rgb(2, 2, 2);
-      color: #ffffff;
-    }
+* {
+  box-sizing: border-box;
+  color: white;
+}
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #000000;
-    }
+body {
+  margin: 0;
+  background: #e9e9e9;
+}
 
-    .page {
-      display: grid;
-      grid-template-rows: 70px 50px 1fr 60px;
-      gap: 10px;
-      min-height: 100vh;
-      padding: 10px;
-    }
+.topMenu {
+  background-color: black;
+  height: 50px;
+  border-radius: 30px;
+  filter: drop-shadow(0px 10px 4px #cc0d9c);
+  margin: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-    .box {
-      border: 1px solid rgb(0, 0, 0);
-      background: #000000;
-      align-items: center;
-    }
+.topMenu a{
+    text-decoration: none;
+}
 
-    header,
-    nav,
-    footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-    }
+.topMenu a:hover{
+    text-decoration: none;
+}
 
-    nav {
-      justify-content: space-around;
-    }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 800px;
+  margin: 20px 8px 0 8px;
+  gap: 20px;
+}
 
-    main {
-      padding: 40px 20px;
-      display: grid;
-      grid-template-columns: 420px 600px;
-      gap: 80px;
-      justify-content: center;
-      align-items: start;
-      min-height: 70vh;
-    }
+.leftContent,
+.rightContent {
+  background-color: black;
+  border-radius: 30px;
+  filter: drop-shadow(0px 10px 4px #cc0d9c);
+}
 
-    .left-column {
-      display: grid;
-      grid-template-rows: auto auto;
-      gap: 20x;
-    }
+.rightContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
-    .text-box {
-      padding: 15px;
-      font-size: 20px;
-      line-height: 1.3;
-    }
+.shaorma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+}
 
-    .image-box{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.neon {
+  display: inline-flex;          
+  justify-content: center;
+  align-items: center;
+  padding: 25px 35px;
+  border-radius: 25px;
+  position: relative;
+  background: black;
+}
 
-    .image-box img{
-        width: 60%;
-        border-radius: 40px;
-    }
+.neon a{
+  text-decoration: none;
+}
 
-    .right-box{
-      width: 100%;
-      max-width: 700px;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+.neon a:hover{
+  text-decoration: none;
+}
 
-    .right-box h3{
-        font-size: 22px;
-        line-height: 1.3;
-        margin-bottom: 25px;
-    }
+.neon::before,
+.neon::after {
+  content: "";
+  position: absolute;
+  inset: 0;                     
+  border-radius: 25px;
+  pointer-events: none;
+}
 
-    .logo_steps{
-    height: 30%;
-    width: 30%;
-    }
+.neon::before {
+  border: 2px solid #cc0d9c;
+  filter: blur(8px);
+}
 
-    .levelandnotes{
-    margin-right: 65%;
-    }
+.neon::after {
+  border: 1px solid #cc0d9c;
+}
 
-    .nexttoeachother{
+.logo_steps {
+  display: block;
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  filter: drop-shadow(0px 10px 4px #cc0d9c);
+}
+
+.neon_text {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 0px 10px 5px #cc0d9c;
+}
+
+.someSpace{
+    margin-top: 30px;
+}
+
+.pejos{
+    background-color: black;
+    width: auto;
+    height: 30px;
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
-    }
-
-.preview{
-    height: 10%;
-    width: 10%;
-}
-
-.nexttoeachother{
-    display: flex;
-    justify-content: space-between;
-}
-
-.imgaginecumine{
-    height: 65.85%;
-    width: 55%;
-    margin-left: 10%;
-}
-
-.culoareHere{
-    color: pink;
-}
-
-.levelandnotes{
-    margin-right: 65%;
-}
-
-/* for html_css notes page */
-
-.center_title{
-    text-align: center;
-}
-
-.fornotes{
-    margin-top: -10%;
-}
-
-.fornotehoriz{
-    margin-top: -1%;
-}
-
-.totheleft{
-    margin-left: -5%;
-}
-
-.totheright{
-    margin-right: 5%;
-}
-
-.siteprev{
-    margin-left: 10%;
-    height: 80%;
-    width: 80%;
-}
-
-.nexttoeachother2{
-    display: flex;
-    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-shadow: 0px 10px 5px #cc0d9c;
+    filter: drop-shadow(0px 10px 4px #cc0d9c);
 }

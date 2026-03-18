@@ -1,0 +1,157 @@
+     *{
+      box-sizing: border-box;
+      background-color: rgb(2, 2, 2);
+      color: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000000;
+    }
+
+    .page {
+      display: grid;
+      grid-template-rows: 70px 50px 1fr 60px;
+      gap: 10px;
+      min-height: 100vh;
+      padding: 10px;
+    }
+
+    .box {
+      border: 1px solid rgb(0, 0, 0);
+      background: #000000;
+      align-items: center;
+    }
+
+    header,
+    nav,
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    nav {
+      justify-content: space-around;
+    }
+
+    main {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: 420px 600px;
+      gap: 80px;
+      justify-content: center;
+      align-items: start;
+      min-height: 70vh;
+    }
+
+    .left-column {
+      display: grid;
+      grid-template-rows: auto auto;
+      gap: 20x;
+    }
+
+    .text-box {
+      padding: 15px;
+      font-size: 20px;
+      line-height: 1.3;
+    }
+
+    .image-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-box img{
+        width: 60%;
+        border-radius: 40px;
+    }
+
+    .right-box{
+      width: 100%;
+      max-width: 700px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right-box h3{
+        font-size: 22px;
+        line-height: 1.3;
+        margin-bottom: 25px;
+    }
+
+    .logo_steps{
+    height: 30%;
+    width: 30%;
+    }
+
+    .levelandnotes{
+    margin-right: 65%;
+    }
+
+    .nexttoeachother{
+    display: flex;
+    justify-content: space-between;
+    }
+
+.preview{
+    height: 10%;
+    width: 10%;
+}
+
+.nexttoeachother{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgaginecumine{
+    height: 65.85%;
+    width: 55%;
+    margin-left: 10%;
+}
+
+.culoareHere{
+    color: pink;
+}
+
+.levelandnotes{
+    margin-right: 65%;
+}
+
+/* for html_css notes page */
+
+.center_title{
+    text-align: center;
+}
+
+.fornotes{
+    margin-top: -10%;
+}
+
+.fornotehoriz{
+    margin-top: -1%;
+}
+
+.totheleft{
+    margin-left: -5%;
+}
+
+.totheright{
+    margin-right: 5%;
+}
+
+.siteprev{
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.nexttoeachother2{
+    display: flex;
+    justify-content: space-evenly;
+}
