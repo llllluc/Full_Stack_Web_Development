@@ -1,0 +1,346 @@
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #5598a8;
+      font-family: sans-serif;
+    }
+
+    .cu_cortu_la_munte {
+      position: relative;
+      width: 900px;
+      height: 520px;
+      overflow: hidden;
+      background: #FFFDCE;
+      border-radius: 8px;
+    }
+
+    .norisor_stanga_1,
+    .norisor_stanga_2,
+    .norisor_stanga_3,
+    .norisor_dreapta_1,
+    .norisor_dreapta_2,
+    .norisor_dreapta_3 {
+      position: absolute;
+      top: 0;
+      background: #F7DB91;
+    }
+
+    .norisor_stanga_1{
+      left: 40px;
+      width: 260px;
+      height: 120px;
+      border-bottom-right-radius: 120px;
+      border-bottom-left-radius: 120px;
+    }
+    .norisor_stanga_2{
+      left: 40px;
+      width: 360px;
+      height: 120px;
+      border-radius: 240px;
+      margin-left: -40px;
+      margin-top: -30px;
+    }
+    .norisor_stanga_3{
+      left: 40px;
+      width: 210px;
+      height: 120px;
+      border-radius: 240px;
+      margin-left: -40px;
+      margin-top: -30px;
+      transform: rotate(90deg);
+    }
+
+    .norisor_dreapta_1 {
+      right: 40px;
+      width: 260px;
+      height: 120px;
+      border-bottom-right-radius: 120px;
+      border-bottom-left-radius: 120px;
+    }
+    .norisor_dreapta_2 {
+      right: 15px;
+      width: 360px;
+      height: 120px;
+      border-radius: 240px;
+      margin-left: -40px;
+      margin-top: -30px;
+    }
+    .norisor_dreapta_3 {
+      right: 180px;
+      width: 210px;
+      height: 120px;
+      border-radius: 240px;
+      margin-left: -40px;
+      margin-top: -30px;
+      transform: rotate(90deg);
+    }
+
+    .varfu_omu_1,
+    .varfu_omu_1_umbra,
+    .varfu_omu_2,
+    .varfu_omu_2_umbra,
+    .varfu_omu_3,
+    .varfu_omu_3_umbra {
+      position: absolute;
+    }
+
+    .varfu_omu_1 {
+      width: 300px;
+      height: 380px;
+      left: 60px;
+      bottom: 10px;
+      background: #4C8CE4;
+      transform: rotate(45deg);
+    }
+    .varfu_omu_1_umbra {
+      width: 350px;
+      height: 220px;
+      left: -120px;
+      bottom: 230px;
+      background: #406093;
+      transform: rotate(120deg);
+      clip-path: polygon(0 0%, 100% 50%, 100% 0);
+    }
+
+
+    .varfu_omu_2 {
+      width: 250px;
+      height: 250px;
+      left: 355px;
+      bottom: 125px;
+      background: #4C8CE4;
+      transform: rotate(45deg);
+    }
+    .varfu_omu_2_umbra {
+      width: 350px;
+      height: 220px;
+      left: 125px;
+      bottom: 220px;
+      background: #406093;
+      transform: rotate(120deg);
+      clip-path: polygon(0 0%, 100% 50%, 100% 0);
+    }
+
+    .varfu_omu_3 {
+      width: 430px;
+      height: 570px;
+      right: -80px;
+      bottom: -226px;
+      background: #4C8CE4;
+      transform: rotate(45deg);
+    }
+    .varfu_omu_3_umbra {
+      width: 350px;
+      height: 220px;
+      right: 90px;
+      bottom: 205px;
+      background: #406093;
+      transform: rotate(120deg);
+      clip-path: polygon(0 0%, 100% 50%, 100% 0);
+    }
+
+    .campina {
+      position: absolute;
+      left: -40px;
+      bottom: 0px;
+      width: 980px;
+      height: 210px;
+      background: #7FB77E;
+      border-radius: 55% 45% 0 0 / 100% 100% 0 0;
+    }
+
+    .cort_1 {
+      position: absolute;
+      right: 110px;
+      bottom: 105px;
+      width: 150px;
+      height: 180px;
+      background: #FE81D4;
+    }
+    .cort_2 {
+      position: absolute;
+      right: 135px;
+      bottom: 105px;
+      width: 250px;
+      height: 180px;
+      background: #FE81D4;
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+    .cort_3 {
+      position: absolute;
+      right: 50px;
+      bottom: 105px;
+      width: 120px;
+      height: 180px;
+      background: #FE81D4;
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+
+    .cort_2::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: #FAACBF;
+      clip-path: polygon(50% 0, 78% 100%, 0 100%);
+    }
+
+    .cort_2::after {
+      content: "";
+      position: absolute;
+      left: 92px;
+      bottom: 0;
+      width: 58px;
+      height: 82px;
+      background: #E36A6A;
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+
+    .cui_lemn_stanga,
+    .cui_lemn_dreapta,
+    .cui_lemn_dreapta_spate {
+      position: absolute;
+      bottom: 104px;
+      width: 6px;
+      height: 24px;
+      background: #8b3a0b;
+      border-radius: 2px;
+    }
+
+    .cui_lemn_stanga {
+      right: 385px;
+      transform: rotate(-20deg);
+    }
+
+    .cui_lemn_dreapta {
+      right: 180px;
+      transform: rotate(18deg);
+    }
+    .cui_lemn_dreapta_spate {
+      right: 45px;
+      transform: rotate(18deg);
+    }
+
+    .cra_1,
+    .cra_1::after {
+      position: absolute;
+      width: 10px;
+      height: 5px;
+      border-top: 2px solid black;
+      border-radius: 50%;
+    }
+
+    .cra_1 {
+      top: 180px;
+      right: 350px;
+      transform: rotate(8deg);
+    }
+
+    .cra_1::after {
+      content: "";
+      left: 8px;
+      top: -2px;
+      transform: rotate(-12deg);
+    }
+
+    .cra_2,
+    .cra_2::after {
+      position: absolute;
+      width: 10px;
+      height: 5px;
+      border-top: 2px solid black;
+      border-radius: 50%;
+    }
+
+    .cra_2 {
+      top: 120px;
+      right: 50px;
+      transform: rotate(8deg);
+    }
+
+    .cra_2::after {
+      content: "";
+      left: 8px;
+      top: -2px;
+      transform: rotate(-12deg);
+    }
+    
+    .cra_3,
+    .cra_3::after {
+      position: absolute;
+      width: 10px;
+      height: 5px;
+      border-top: 2px solid black;
+      border-radius: 50%;
+    }
+
+    .cra_3 {
+      top: 110px;
+      right: 150px;
+      transform: rotate(8deg);
+    }
+
+    .cra_3::after {
+      content: "";
+      left: 8px;
+      top: -2px;
+      transform: rotate(-12deg);
+    }
+
+    .cra_4,
+    .cra_4::after {
+      position: absolute;
+      width: 10px;
+      height: 5px;
+      border-top: 2px solid black;
+      border-radius: 50%;
+    }
+
+    .cra_4 {
+      top: 50px;
+      right: 490px;
+      transform: rotate(8deg);
+    }
+
+    .cra_4::after {
+      content: "";
+      left: 8px;
+      top: -2px;
+      transform: rotate(-12deg);
+    }
+
+    .tufis_dreapta {
+      position: absolute;
+      left: -40px;
+      right: 20px;
+      bottom: -10px;
+      height: 110px;
+      width: 550px;
+      background: #042f57;
+      border-radius: 40% 60% 0 0 / 10% 100% 0 0;
+    }
+
+    .tufis_stanga,
+    .tufis_jum {
+      position: absolute;
+      bottom: 55px;
+      background: #042f57;
+      border-radius: 50%;
+    }
+
+    .tufis_stanga {
+      left: -60px;
+      width: 260px;
+      height: 130px;
+    }
+
+    .tufis_jum {
+      left: 150px;
+      width: 220px;
+      height: 90px;
+    }
