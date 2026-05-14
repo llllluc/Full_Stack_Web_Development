@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+      margin: 100px;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #B9B28A;
+      font-family: sans-serif;
+    }
+
+
+    .resume_border{
+      position: relative;
+      width: 1000px;
+      height: 1800px;
+      overflow: hidden;
+      background: #FFF8DE;
+      border-radius: 10px;
+      display: flex;
+    }
+
+    .resume_border_stanga{
+      position: relative;
+      width: 300px;
+      height: 1800px;
+      overflow: hidden;
+      background: #97A87A;
+      border-radius: 10px;
+    }
+
+    .resume_border_dreapta{
+        width: 700px;
+        height: 1800px;
+        background-color: #FFF8DE;
+    }
+
+    .box_img{
+        position: relative;
+        width: 205px;
+        height: 210px;
+        background: #FFF8DE;
+        margin:50px
+    }
+
+    .img_cu_mine{
+        transform: rotate(3deg);
+        display: grid;
+    }
+
+    .nume{
+        margin-left: 45px;
+    }
+
+    .current_position{
+        margin-left: 60px;
+    }
+
+    .just_to_separate{
+        background-color: #C5D89D;
+        width: 250px;
+        height: 5px;
+        border-radius: 3px;
+        margin-left: 25px;
+    }
+
+    .work_eperience {
+        margin: 20px;
+    }
+    .Education{
+        margin: 20px;
+    }
+
+.move_a_bit{
+    margin-left: 10px;
+}
+
+.just_to_separate_dreapta{
+        background-color: #C5D89D;
+        width: 650px;
+        height: 5px;
+        border-radius: 3px;
+}
+
+.just_to_separate_dreapta_cap{
+        background-color: #C5D89D;
+        width: 350px;
+        height: 5px;
+        border-radius: 3px;
+        margin-bottom: 5px;    
+}
+
+.red{
+    position: relative;
+    display: inline-block;
+}
+
+.red::after{
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 13px;
+  width: 20px;
+  height: 2px;
+  background: rgb(255, 0, 0);
+  transform: rotate(-62deg);
+  transform-origin: center;
+}
+
+a {
+    color: #1D4ED8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
